@@ -131,7 +131,7 @@ section.judicial-item {
 }
 .contact-section {
     text-align: center;
-    background: #101010;
+    background: black;
 }
 section.formulario {
         width: 50%;
@@ -149,7 +149,7 @@ section.formulario {
     font-size: 14px;
     line-height: 16px;
     color: #fff;
-    background-color: transparent;
+    background-color: black !important;
     border: none;
     border-bottom: 5px solid #fff;
     border-radius: 0;
@@ -171,7 +171,7 @@ section.formulario {
   .form-group textarea {
     border: 5px solid #fff;
     border-radius: 0;
-    background: transparent;
+    background: black !important;
     margin-top: 40px;
     padding-left: 30px;
     padding-top: 30px;
@@ -188,7 +188,7 @@ section.formulario {
     color: #fff;
     border: 5px solid rgba(255,255,255, .75);
     border-radius: 0;
-    background: transparent;
+    background: black;
     padding: 12px 45px;
     font-size: 13px;
       transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
