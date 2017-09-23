@@ -135,7 +135,7 @@ section.judicial-item {
 }
 section.formulario {
         width: 50%;
-        padding-left: 5rem;
+        padding-left: 25vw;
 }
   
   
@@ -213,7 +213,7 @@ section.formulario {
   
   .contact-item {
     position: relative;
-    color: #444;
+    color: #B6944C;
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -240,7 +240,7 @@ section.formulario {
     position: absolute;
     top: 0;
     left: 0;
-    background: #111;
+    background: black;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -257,7 +257,7 @@ section.formulario {
   
   .ci-title {
     margin-bottom: 1px;
-    color: #777;
+    color: #B6944C;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
@@ -319,4 +319,6 @@ section.formulario {
     transform: rotateY(180deg);
     width: 100%;
   }
+
+  
 
