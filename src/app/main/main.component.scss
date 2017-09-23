@@ -50,7 +50,6 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-right: 5rem;
     h2 {
         font-size: 1rem;
     }
@@ -67,13 +66,29 @@ section.judicial-item {
     border:5px solid #B6944C;
     width:130px;
     height:130px;
+    display: flex;
     text-align: center;
-    h2{
+    justify-content: center;
+      h2{
         color: white;
         padding-top: 10rem;
         
     }
 }
+.civil, .sucessoes, .familia, .penal, .trabalhista, .contencioso, .consultivo, .licitacoes{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    padding-top: 1.3rem;
+    opacity: 0.8;
+}
+.atuacao-icon:hover{
+    opacity: 2;
+}
+.licitacoes{
+    padding-left: 1rem;
+}
+
 .acompanhe-processo{
     text-align: left;
     position: relative;
