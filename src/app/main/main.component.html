@@ -1,4 +1,5 @@
 <section class="content">
+  <!-- Sobre -->
     <section class="sobre">
       <section class="title">
         <h1 class="title-sobre post">Sobre</h1>
@@ -6,7 +7,7 @@
     <section class="text-sobre">
       <p>Breve resumo a respeito do Edvan, carreira, estudos, missão e etc...</p>
     </section>
-   
+   <!-- Atuação -->
     <section class="atuacao">
       <section class="title">
         <h1>Atuação</h1>
@@ -62,21 +63,58 @@
       </section>                
     </section>
     </section>
+    <!-- Acompanhe seu processo -->
     <section class="acompanhe-processo">
       <div class="triangle-overlay">
         <h3 class="processo">Acompanhe já o andamento<br> do seu processo!</h3>
         <h3 class="acompanhe-aqui">Acompanhe aqui!</h3>
       </div>
     </section>
+    <!-- Contato -->
     <section class="contato">
       <section class="title">
         <h1>Contato</h1>
       </section>
-      <section class="contato-form">
-
-      </section>
-      <section class="map">
-
+      <section class="formulario">
+        <section id="contact" class="contact-section">
+          <div class='container pt-50 pb-40'>
+            <div class="col-sm-12">
+              <div class="contact-form" id="contact_form">
+                <form id="form" action="" method="post">
+                  <div class="row pt-40">
+                    <div class="col-md-4 col-sm-4 col-xs-12 pb-20">
+                      <div class="form-group">
+                        <input type="text" name="nome" id="name" required="" class="form-control form-style focus-gold" placeholder="Nome">
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 pb-20">
+                      <div class="form-group">
+                        <input type="email" name="email" id="email" required="" class="form-control form-style focus-gold" placeholder="E-mail">
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 pb-20">
+                      <div class="form-group">
+                        <input type="text" name="subject" id="subject" required="" class="form-control form-style focus-gold" placeholder="Assunto">
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="form-group">
+                    <textarea class="form-control focus-gold" rows="10" name="message" id="message" placeholder="Mensagem"></textarea>
+                  </div><!-- /.form-group -->
+            
+                  <div class="alert notification padding-0"></div><!-- Contact form notification message will be display here -->
+            
+                  <div class="align-center pt-20 pb-10">
+                    <button type="submit" id="submit" class="btn btn-mod">
+                    Enviar</button>
+                  </div>
+                
+                </form>
+              </div>
+            </div>
+            </div>
+        </section>
       </section>
     </section>
 </section>
