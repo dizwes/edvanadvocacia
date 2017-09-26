@@ -40,7 +40,7 @@ h1{
 .atuacao{
     background: black;
     width: 100%;
-    height: 100vh;
+    height: 78vh;
     }
 
     h1{
@@ -320,5 +320,103 @@ section.formulario {
     width: 100%;
   }
 
+  @media screen and (max-width: 1260px) {
+    .atuacao {
+      height: 100vh;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .atuacao {
+      height: 80vh;
+      }
+  }
+  @media screen and (max-width: 768px) {
+    .atuacao {
+    height: 80vh;
+    }
+    .circle{
+      width: 90px;
+      height: 90px;
+    }
+    .civil, .sucessoes, .familia, .penal, .trabalhista, .contencioso, .consultivo, .licitacoes{
+      width: 50px;
+      height: 50px;
+    }
+    .circle>h2{
+      padding-top: 7rem;
+    }
+  } 
   
+  @media screen and (max-width: 540px) { 
+    .circle{
+      width: 80px;
+      height: 80px;
+    }
+    .civil, .sucessoes, .familia, .penal, .trabalhista, .contencioso, .consultivo, .licitacoes{
+      width: 40px;
+      height: 40px;
+    }
+    .circle>h2{
+      padding-top: 6rem;
+    }
+    @media screen and (max-width: 414px) {
+      .atuacao{
+        height: 85vh;
+      }
+      .processo{
+        padding: 3rem;
+      }
+      .acompanhe-aqui{
+        margin-left: 8rem;
+        margin-top: 1rem;
+      }
+      .licitacoes{
+        padding-left: 0.3rem;
+        
+      }
+      .circle{
+        width: 60px;
+        height: 60px;
+      }
+      .civil, .sucessoes, .familia, .penal, .trabalhista, .contencioso, .consultivo, .licitacoes{
+        width: 25px;
+        height: 25px;
+        margin-top: -0.3rem;
+      }
+      .circle>h2{
+        padding-top: 4.5rem;
+        font-size: 0.8rem;
+      }
+    }
+    
+    @media screen and (max-width: 320px) {
+      .atuacao{
+        height: 85vh;
+      }
+      .processo{
+        padding: 3rem;
+      }
+      .acompanhe-aqui{
+        margin-left: 8rem;
+        margin-top: 1rem;
+      }
+      .circle{
+        width: 50px;
+        height: 50px;
+      }
+      .civil, .sucessoes, .familia, .penal, .trabalhista, .contencioso, .consultivo, .licitacoes{
+        width: 25px;
+        height: 25px;
+        margin-top: -0.5rem;
+      }
+      .circle>h2{
+        font-size: 0.7rem;
+      }
+      .licitacoes{
+        padding-left: 0.5rem;
+        
+      }
 
+  }
+
+}
