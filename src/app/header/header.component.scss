@@ -137,9 +137,11 @@ section.logo {
       opacity: 1;
     }
   }
+  
+  
   @media screen and (max-width: 1024px){
   .contact-imgbg{
-    padding-top: 72vh;
+    padding-top: 50vh;
   }
   .processo {
     padding: 13rem;
@@ -147,13 +149,28 @@ section.logo {
   .acompanhe-aqui{
     margin-top: -9rem;
   }
-  
+  .logo-txt{
+    padding-top: 13vh;
   }
-  @media screen and (max-width: 320px) { 
+  @media screen and (max-width: 768px){
+    .logo-txt{
+      padding-top: 17vh;
+    }
+  }
+  }
+  @media screen and (max-width: 414px) { 
     .contact-imgbg{
       padding-top: 45vh;
     }
     .logo-txt{
-      padding-top: 29vh;
+      padding-top: 25vh;
+    }
+    @media screen and (max-width: 320px) {
+      .logo-txt{
+        padding-top: 29vh;
+        
+      }
     }
   }
+
+  
