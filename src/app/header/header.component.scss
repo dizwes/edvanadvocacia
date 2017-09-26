@@ -137,3 +137,23 @@ section.logo {
       opacity: 1;
     }
   }
+  @media screen and (max-width: 1024px){
+  .contact-imgbg{
+    padding-top: 72vh;
+  }
+  .processo {
+    padding: 13rem;
+  }
+  .acompanhe-aqui{
+    margin-top: -9rem;
+  }
+  
+  }
+  @media screen and (max-width: 320px) { 
+    .contact-imgbg{
+      padding-top: 45vh;
+    }
+    .logo-txt{
+      padding-top: 29vh;
+    }
+  }
