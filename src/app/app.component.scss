@@ -34,15 +34,23 @@ a {
     text-transform: uppercase;
 }
 a:hover {
+	outline:none;
     color: #B6944C;
-    border-bottom: solid 2px #b6944C;
+	border-bottom: solid 2px #b6944C;
+}
+
+.menu-mobile{
+	display: none;
 }
 
 @media screen and (max-width: 820px) {
     .navbar-fixed-top {
       display: none;
-    }
-  }
+	}
+	
+}
+
+
 
 
 

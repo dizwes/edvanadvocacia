@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
           $(".navbar-fixed-top").removeClass("top-nav-collapse gold");
       }
   });
+ 
   }
 
 }
