@@ -14,7 +14,7 @@ section.title {
     height: 10vh;
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 h1{
@@ -40,7 +40,8 @@ h1{
 .atuacao{
     background: black;
     width: 100%;
-    height: 78vh;
+    padding-bottom: 3rem;
+    
     }
 
     h1{
@@ -99,7 +100,7 @@ section.judicial-item {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 60vh;
+   
 }
 .triangle-overlay {
     text-align: left;
@@ -110,11 +111,11 @@ section.judicial-item {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 60vh;
+   
     background: url('/assets/gplay.png');
   }
   .processo{
-    padding: 9rem;
+    padding: 7rem;
   }
   .acompanhe-aqui {
     position: absolute;
@@ -319,21 +320,7 @@ section.formulario {
     transform: rotateY(180deg);
     width: 100%;
   }
-
-  @media screen and (max-width: 1260px) {
-    .atuacao {
-      height: 100vh;
-    }
-  }
-  @media screen and (max-width: 1024px) {
-    .atuacao {
-      height: 80vh;
-      }
-  }
   @media screen and (max-width: 768px) {
-    .atuacao {
-    height: 80vh;
-    }
     .circle{
       width: 90px;
       height: 90px;
@@ -360,9 +347,6 @@ section.formulario {
       padding-top: 6rem;
     }
     @media screen and (max-width: 414px) {
-      .atuacao{
-        height: 85vh;
-      }
       .processo{
         padding: 3rem;
       }
@@ -390,9 +374,6 @@ section.formulario {
     }
     
     @media screen and (max-width: 320px) {
-      .atuacao{
-        height: 85vh;
-      }
       .processo{
         padding: 3rem;
       }
@@ -415,6 +396,9 @@ section.formulario {
       .licitacoes{
         padding-left: 0.5rem;
         
+      }
+      h1{
+        margin-bottom: 0.7rem;
       }
 
   }

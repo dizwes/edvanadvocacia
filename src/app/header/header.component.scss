@@ -16,8 +16,8 @@ section.logo {
     height: 30vh;
 }
 .logo-ea{
-    width: 220px;
-    height: 150px;
+    width: 30vh;
+    height: 30vh;
     border: solid white 3px;
 }
 .logo-txt {
@@ -26,7 +26,7 @@ section.logo {
   color: #B6944C;
   font-weight: bolder;
   text-transform: uppercase;
-  padding-top: 25vh;
+  margin-top: 35vh;
 }
 .contact-imgbg{
     height: 35vh;
@@ -149,28 +149,7 @@ section.logo {
   .acompanhe-aqui{
     margin-top: -9rem;
   }
-  .logo-txt{
-    padding-top: 13vh;
-  }
-  @media screen and (max-width: 768px){
-    .logo-txt{
-      padding-top: 17vh;
-    }
-  }
-  }
   @media screen and (max-width: 414px) { 
     .contact-imgbg{
       padding-top: 45vh;
-    }
-    .logo-txt{
-      padding-top: 25vh;
-    }
-    @media screen and (max-width: 320px) {
-      .logo-txt{
-        padding-top: 29vh;
-        
-      }
-    }
-  }
-
-  
+    }}}
