@@ -153,3 +153,14 @@ section.logo {
     .contact-imgbg{
       padding-top: 45vh;
     }}}
+  
+  @media screen and (max-width: 320px) {
+    section.logo{
+      padding-top: 14vh;
+    }.logo-txt{
+      font-size: 1.2rem;
+    }.contact-imgbg{
+      padding-top: 30vh;
+    }}
+
+    
